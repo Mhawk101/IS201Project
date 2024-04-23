@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(0, 56, 167);
+    font-family: Roboto mono, Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+
+.common {
+    background-color: #cccccc;
+    border: 2px solid white;
+    position: absolute;
+} 
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 70px;
+    z-index: 2;
+    /* border-bottom: 1px black; */
+}
+.header h1 {
+    margin: 0;
+    line-height: 1; 
+    font-style: italic;
+}
+
+.header h5 {
+    margin-top: 5px;
+    font-style: italic;
+    color: darkblue;
+}
+
+.leftmenu{
+    top: 85px;
+    left: 5px;
+    width: 545px;
+    bottom: 350px;
+    z-index: 1;
+    padding-right: 5px;
+}
+.mainbody{
+    top: 85px;
+    left: 565px;
+    /* right: 164px; */
+    width: 514px;
+    bottom: 350px;
+    text-decoration: underline;
+}
+.rightmenu {
+    top: 85px;
+    right: 5px;
+    width: 170px;
+    bottom: 39px;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-left: 0px;
+
+}
+.footer{
+    bottom:5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    position: fixed;
+}
+.tablu{
+    right: 400px;
+    left: 5px;
+    bottom: 135px;
+    height: 200px;
+    position: absolute;
+}
+    
+
+.subheader{
+    float:right;
+}
+
+.cool{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top:auto
+}
+
+ol{
+    font-size: smaller;
+    margin-left: 0%;
+    
+}
+li{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+ul{
+    margin-left: 0%;
+    list-style-type: disc;
+}
